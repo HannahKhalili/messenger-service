@@ -1,7 +1,7 @@
-package com.trioptima.hana.data.impl;
+package com.hana.assignment.data.impl;
 
-import com.trioptima.hana.data.MessageRepository;
-import com.trioptima.hana.models.Message;
+import com.hana.assignment.data.MessageRepository;
+import com.hana.assignment.models.Message;
 
 import java.util.ArrayList;
 import java.util.List;

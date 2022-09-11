@@ -1,4 +1,4 @@
-package com.trioptima.hana.models;
+package com.hana.assignment.models;
 
 public class Message {
 

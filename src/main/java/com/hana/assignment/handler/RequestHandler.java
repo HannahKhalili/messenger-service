@@ -1,9 +1,9 @@
-package com.trioptima.hana.handler;
+package com.hana.assignment.handler;
 
+import com.hana.assignment.models.Message;
+import com.hana.assignment.service.MessageService;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-import com.trioptima.hana.models.Message;
-import com.trioptima.hana.service.MessageService;
 
 import java.io.BufferedReader;
 import java.io.IOException;

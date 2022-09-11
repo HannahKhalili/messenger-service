@@ -1,9 +1,9 @@
-package com.trioptima.hana.service.impl;
+package com.hana.assignment.service.impl;
 
-import com.trioptima.hana.data.MessageRepository;
-import com.trioptima.hana.data.impl.InMemoryMessageRepository;
-import com.trioptima.hana.models.Message;
-import com.trioptima.hana.service.MessageService;
+import com.hana.assignment.data.MessageRepository;
+import com.hana.assignment.models.Message;
+import com.hana.assignment.service.MessageService;
+import com.hana.assignment.data.impl.InMemoryMessageRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

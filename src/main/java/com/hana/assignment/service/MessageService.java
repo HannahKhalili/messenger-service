@@ -1,6 +1,6 @@
-package com.trioptima.hana.service;
+package com.hana.assignment.service;
 
-import com.trioptima.hana.models.Message;
+import com.hana.assignment.models.Message;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package com.trioptima.hana;
+package com.hana.assignment;
 
+import com.hana.assignment.service.MessageService;
 import com.sun.net.httpserver.HttpServer;
-import com.trioptima.hana.data.impl.InMemoryMessageRepository;
-import com.trioptima.hana.handler.RequestHandler;
-import com.trioptima.hana.service.MessageService;
-import com.trioptima.hana.service.impl.MessageServiceImpl;
+import com.hana.assignment.data.impl.InMemoryMessageRepository;
+import com.hana.assignment.handler.RequestHandler;
+import com.hana.assignment.service.impl.MessageServiceImpl;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
