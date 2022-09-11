@@ -7,6 +7,10 @@ Following command to build and run tests:
 
     ./gradlew clean test build
 
+After build the project, the output will be in `build/libs` directory (`messenger-1.0.jar`). For run the jar file you can use this command in the command line:
+
+    java -jar ./build/libs/messenger-1.0.jar    
+
 ### Usage
 The server is listening on port `:8080` and will respond to the following http requests:
 - POST /messages
